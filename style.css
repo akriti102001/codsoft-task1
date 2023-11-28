@@ -1,0 +1,124 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0%;
+    padding:0%;
+    box-sizing:initial;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+
+html{
+    font-size: 88.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 10rem;
+    scroll-behavior: smooth;
+  
+}
+
+section{
+    padding: 2rem 9%;
+    background-color: #ffffff;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    height: 0.9%;
+    background-color: #cea8a8c5;
+    color:rgba(24, 32, 63, 0.879);
+    block-size: 45px;
+    padding:2rem 9%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    /*text-align: center;*/
+    align-items:space-between;
+    justify-content:space-between;
+    
+   
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    margin-left: 10rem;
+}
+.header .navbar a:hover{
+    color: rgb(0,255,204);
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding-top:10rem;
+}
+.about .row{
+    /*margin: 20px;*/
+    display:flex;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 5rem;  
+}
+.about .row .content{
+    flex: 1 1 40rem;
+}
+
+.about .row .content h2{
+    color: #f0adad;
+    text-shadow:#16135fc7;
+    font-size: 5rem;
+    line-height: 2.0;
+}
+
+.about .row .content li{
+    font-size:larger;
+    text-decoration:dotted;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #ddd; /* Border color and style */
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+}
+
+th {
+    background-color: #f2f2f2; /* Header background color */
+}
+.box{
+    box-sizing:200%;
+    border: 1px solid #c78282; /* Border properties */
+    padding: 10px; /* Padding inside the box */
+    margin: 10px; /* Margin outside the box */
+    display: inline-block; /* Display as inline block to fit content */
+  }
+.footer {
+    background-color: #cea8a89e;
+    color: #16135fc7;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left:0%;
+    width: 100%;
+    height: 1.2%;
+}
+
+/*.contact h2{
+
+
+}*/
+
+.dark-border {
+    border:2px solid #333;
+    padding: 10px;
+}
